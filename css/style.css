@@ -1,0 +1,112 @@
+.backg-dark {
+    background-color: #353a40;
+}
+
+.nav-link {
+    color: #949da4;
+}
+
+#active-link {
+    color: #28a645;
+}
+
+#button-buy {
+    background-color: #28a645;
+    border-color: #28a645;
+}
+
+#button-sub {
+    background-color: #96c93e;
+    border-color: #96c93e;
+}
+
+.top-p3 {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.title-p3 {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+#background-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hawaii.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    padding-bottom: 0.6rem;
+    font-weight: 600;
+}
+
+.card-p {
+    font-size: 0.78rem;
+}
+
+.js {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #222;
+    background-color: #fdc006;
+}
+
+.rt {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #FFF;
+    background-color: #17a2b7;
+}
+
+.ng {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #FFF;
+    background-color: #6d757e;
+}
+
+.su {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #FFF;
+    background-color: #dd3546;
+}
+
+.t4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.p4 {
+    font-size: 0.80rem;
+}
+
+.link {
+    color: #222;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.footer {
+    background-color: #1e516e;
+    height: 5rem;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    
+
+}
