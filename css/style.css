@@ -1,112 +1,174 @@
+body {
+    overflow-x: hidden;
+}
+
 .backg-dark {
     background-color: #353a40;
 }
 
-.nav-link {
-    color: #949da4;
+.nav-title {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
 }
 
-#active-link {
+.nav-title:hover {
+    color: #fec900;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #949da4;
+    border-radius: 0.5rem;
+}
+
+.nav-link-active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover, .nav-link-active:hover {
+    color: #fec900;
+    border-radius: 0.5rem;
+    background-color: #454a50;
+}
+
+.buy-link {
     color: #28a645;
 }
 
-#button-buy {
+.buy-link:hover {
+    color: #fff;
+    border-radius: 0.5rem;
+    background-color: #28a64560;
+
+}
+
+#backg-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hawaii.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    z-index: 8;
+}
+
+.banner-title {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-p {
+    color: #fff;
+}
+
+.button-buy {
     background-color: #28a645;
     border-color: #28a645;
 }
 
-#button-sub {
-    background-color: #96c93e;
-    border-color: #96c93e;
+.button-buy:hover {
+    background-color: #28a645;
+    border-color: #fff;
 }
 
-.top-p3 {
+.seg-top {
+    color: #333;
     font-size: 0.7rem;
     text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
 }
 
-.title-p3 {
+.seg-title {
+    color: #333;
     font-size: 1.7rem;
     text-align: center;
     font-weight: 600;
 }
 
-#background-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hawaii.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 40rem;
-}
-
 .card-title {
+    color: #333;
     font-size: 1.3rem;
     padding-bottom: 0.6rem;
     font-weight: 600;
 }
 
 .card-p {
+    color: #444;
     font-size: 0.78rem;
 }
 
-.js {
+.card-label {
     font-size: 0.7rem;
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
     border-radius: 0.3rem;
+}
+
+.js {
     color: #222;
     background-color: #fdc006;
 }
 
 .rt {
-    font-size: 0.7rem;
-    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
-    border-radius: 0.3rem;
     color: #FFF;
     background-color: #17a2b7;
 }
 
 .ng {
-    font-size: 0.7rem;
-    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
-    border-radius: 0.3rem;
     color: #FFF;
     background-color: #6d757e;
 }
 
 .su {
-    font-size: 0.7rem;
-    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
-    border-radius: 0.3rem;
     color: #FFF;
     background-color: #dd3546;
 }
 
-.t4 {
+.honolulu-title {
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.p4 {
+.honolulu-p {
     font-size: 0.80rem;
 }
 
-.link {
+.form-link {
     color: #222;
     text-decoration: underline;
     text-decoration-style: dotted;
 }
 
+.button-send {
+    background-color: #96c93e;
+    border-color: #96c93e;
+}
+
+.button-send:hover {
+    background-color: #96c93e;
+    border-color: #76a91e;
+}
+
 .footer {
     background-color: #1e516e;
-    height: 5rem;
+}
+
+.list-link {
+    list-style-type: none;
 }
 
 .footer-link {
+    list-style-type: none;
     color: #fff;
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
-    
+}
 
+.footer-link:hover {
+    color: #fdc006;
+    border-radius: 0.5rem;
+    background-color: #1e516e;
 }
